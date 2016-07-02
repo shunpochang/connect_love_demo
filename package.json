@@ -1,0 +1,29 @@
+{
+  "name": "simple_django_react",
+  "version": "0.0.0",
+  "description": "Dependencies for testing react with django",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "babel-core": "~6.10.4",
+    "es6-promise": "~3.2.1",
+    "babel": "~6.5.2",
+    "babel-loader": "~6.2.4",
+    "babel-preset-react": "~6.5.0",
+    "react": "~15.1.0",
+    "webpack": "~1.13.1",
+    "webpack-bundle-tracker": "~0.0.93",
+    "react-dom": "~15.1.0",
+    "style-loader": "~0.13.1",
+    "css-loader": "~0.23.1"
+  },
+  "devDependencies": {
+    "extract-text-webpack-plugin": "~1.0.1",
+    "jquery": "~3.0.0",
+    "react-bootstrap": "~0.29.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause"
+}
