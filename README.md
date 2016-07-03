@@ -3,13 +3,14 @@
 ###### Following the steps in [Google App Engine + Django](https://cloud.google.com/python/django/appengine) and a brush up of the commenting tool covered in my [Django + React tutorial](https://github.com/shunpochang/examples), I outlined the end-to-end need to deploy a React App to GAE with Django backend.
 ###### WHY the combo?
 * React: The virtual-dom and modularity sets up greatly for scalable web technologies (also, I will try out Reach-native as a Part II tutorial of deploying light-weight end-to-end native app).
-..* Facebook, Instagram, Khan Academy, and Netflix all use React.
+  * *Facebook, Instagram, Khan Academy, and Netflix* all use React.
 * Django: The most popular backend management framework that also allows powerful data management with its ORM model.
-..* Instagram, Pinterest, Eventbrite and a lot more all use Django.
+  * *Instagram, Pinterest, Eventbrite* and a lot more all use Django.
 * Google App Engine: Platform as a service from Google to help Apps scale automatically with auto load-balancing and data replication.
-..* Google internal tools, Snapchat, Rovio (angry birds), and Udacity all host apps on GAE.
-Steps to set up the testing environment.
+  * *Snapchat, Rovio (angry birds), Udacity*, and Google internal tools all are hosted on GAE.
 ---
+##### Steps to set up the testing environment.
+
 Setup virtualenv (optional)
 ```bash
 virtualenv ve
