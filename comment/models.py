@@ -8,3 +8,6 @@ class Comment(models.Model):
     comment_author = models.CharField(max_length=200)
     comment_text = models.CharField(max_length=300)
     comment_date = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return ' '.join([self.comment_author, 'from', self.comment_text])

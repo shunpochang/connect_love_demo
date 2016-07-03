@@ -8,8 +8,6 @@ var FormGroup = require('react-bootstrap').FormGroup;
 var Label = require('react-bootstrap').Label;
 var ListGroup = require('react-bootstrap').ListGroup;
 var ListGroupItem = require('react-bootstrap').ListGroupItem;
-// Add individual CSS.
-require('../css/home.css');
 
 //JSX strips whitespace between lines, so we need to manually add spaces.
 var CommentForm = React.createClass({
@@ -37,7 +35,7 @@ var CommentForm = React.createClass({
   render: function() {
     return (
       <Form inline className='commentForm' onSubmit={this.handleSubmit}>
-        <FormGroup>
+        <FormGroup bsSize='large'>
         <ControlLabel>Name:</ControlLabel>
 	{' '}
         <FormControl
@@ -48,7 +46,7 @@ var CommentForm = React.createClass({
         />
         </FormGroup>
 	{'    '}
-        <FormGroup>
+        <FormGroup bsSize='large'>
         <ControlLabel>Country:</ControlLabel>
 	{' '}
         <FormControl
