@@ -8,7 +8,9 @@
   * *Instagram, Pinterest, Eventbrite* and a lot more all use Django.
 * Google App Engine: Platform as a service from Google to help Apps scale automatically with auto load-balancing and data replication.
   * *Snapchat, Rovio (angry birds), Udacity*, and Google internal tools all are hosted on GAE.
+
 ---
+
 ##### Steps to set up the testing environment.
 
 Setup virtualenv (optional)
