@@ -1,18 +1,18 @@
 # connect-love demo App
 ![alt text](https://github.com/shunpochang/file_dump/blob/master/images/connect_love_demo_img.png "connect-love demo")
-### Code for https://connect-love.appspot.com/, where I set up a basic GAE app using Django and React.
-###### Following the steps in [Google App Engine + Django](https://cloud.google.com/python/django/appengine) and brushing up on the commenting tool covered in my [Django + React tutorial](https://github.com/shunpochang/examples), here's and end-to-end outline to deploy a React App to GAE with Django backend.
+### Here's the code for https://connect-love.appspot.com/, a basic GAE app using Django and React.
+###### Following the steps in [Google App Engine + Django](https://cloud.google.com/python/django/appengine) and iterating on the commenting tool covered in my [Django + React tutorial](https://github.com/shunpochang/examples), here's an end-to-end outline to deploy a React App on GAE with Django backend.
 ###### WHY the combo?
-* React: The virtual-dom and modularity sets up greatly for scalable web technologies (also, I am trying out Reach-native to try deploying a light-weight app across all platforms).
+* React: The modularity sets up greatly for scalable web technologies (I am also trying out Reach-Native to deploy a light-weight app across all platforms).
   * *Facebook, Instagram, Khan Academy, and Netflix* all use React.
-* Django: The most popular backend management framework that also allows powerful data management with its ORM model.
+* Django: The most popular backend management framework that allows powerful data management with its ORM model.
   * *Instagram, Pinterest, Eventbrite* and many more all use Django.
 * Google App Engine: Platform as a service from Google to help Apps scale automatically with auto load-balancing and data replication.
   * *Snapchat, Rovio (angry birds), Udacity*, and Google internal tools are hosted on GAE.
 
 ---
 
-##### Steps to set up the testing environment.
+##### Steps to set up the tool.
 
 Setup virtualenv (optional)
 ```bash
