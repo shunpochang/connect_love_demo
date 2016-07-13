@@ -1,7 +1,7 @@
 [**Support me with a Follow**](https://github.com/shunpochang/followers)
 ## connect-love demo App
 #### Here's the code for https://connect-love.appspot.com/, a basic GAE app using Django and React.
-[![alt text](https://github.com/shunpochang/file_dump/blob/master/images/connect_love_demo_img.png "connect-love demo")](https://connect-love.appspot.com/)
+[![alt text](https://github.com/shunpochang/file_dump/blob/master/images/connect_love_demo_img_2.png "connect-love demo")](https://connect-love.appspot.com/)
 ###### Following the steps in [Google App Engine + Django](https://cloud.google.com/python/django/appengine) and iterating on the commenting tool covered in my [Django + React tutorial](https://github.com/shunpochang/examples), here's an end-to-end outline to deploy a React App on Google App Engine (GAE) with Django backend.
 ###### WHY the combo?
 * _React_: The modularity sets up greatly for scalable web technologies (**[I have also used React-Native to deploy this demo app on Android and iOS](https://github.com/shunpochang/connect_love_mobile_demo)**).
