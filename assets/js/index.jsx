@@ -1,6 +1,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var CommentBox = require('./commentbox');
+var CommentBox = require('./CommentBox');
 // Add individual CSS.
 require('../css/home.css');
 // React-bootstrap.
